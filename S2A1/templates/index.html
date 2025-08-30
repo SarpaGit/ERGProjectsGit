@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Animal Selector and File Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            gap: 40px;
+        }
+        .box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+        .checkbox-group label {
+            display: block;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        #animal-image {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 5px;
+            display: none;
+        }
+        #file-info {
+            margin-top: 20px;
+            white-space: pre-wrap;
+            font-family: monospace;
+            background: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        input[type="file"] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="animal-box">
+        <h3>Select an animal</h3>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="animal" value="cat" /> Cat</label>
+            <label><input type="checkbox" name="animal" value="dog" /> Dog</label>
+            <label><input type="checkbox" name="animal" value="elephant" /> Elephant</label>
+        </div>
+        <img id="animal-image" src="" alt="Selected animal" />
+    </div>
+
+    <div class="box" id="upload-box">
+        <h3>Upload a file</h3>
+        <input type="file" id="file-input" />
+        <div id="file-info"></div>
+    </div>
+
+    <script>
+        // Handle animal checkbox selection - only one can be selected at a time
+        const checkboxes = document.querySelectorAll('input[name="animal"]');
+        const animalImage = document.getElementById('animal-image');
+
+        checkboxes.forEach(cb => {
+            cb.addEventListener('change', () => {
+                // Uncheck all other checkboxes
+                checkboxes.forEach(otherCb => {
+                    if (otherCb !== cb) otherCb.checked = false;
+                });
+
+                if (cb.checked) {
+                    // Show corresponding image
+                    animalImage.src = `/static/images/${cb.value}.jpg`;
+                    animalImage.style.display = 'block';
+                } else {
+                    animalImage.style.display = 'none';
+                    animalImage.src = '';
+                }
+            });
+        });
+
+        // Handle file upload
+        const fileInput = document.getElementById('file-input');
+        const fileInfoDiv = document.getElementById('file-info');
+
+        fileInput.addEventListener('change', () => {
+            const file = fileInput.files[0];
+            if (!file) {
+                fileInfoDiv.textContent = '';
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    fileInfoDiv.textContent = `Error: ${data.error}`;
+                } else {
+                    fileInfoDiv.textContent = 
+                        `Name: ${data.name}\n` +
+                        `Size: ${data.size} bytes\n` +
+                        `Type: ${data.type}`;
+                }
+            })
+            .catch(err => {
+                fileInfoDiv.textContent = 'Upload failed.';
+                console.error(err);
+            });
+        });
+    </script>
+</body>
+</html>
