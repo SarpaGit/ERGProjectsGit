@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Content Summarizer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                <span class="icon">📝</span>
+                Web Summarizer
+            </h1>
+            <p class="subtitle">Get quick summaries of web content</p>
+        </header>
+
+        <main class="main">
+            <div class="summary-section">
+                <div class="summary-header">
+                    <h2>Page Summary</h2>
+                    <div class="summary-controls">
+                        <select id="summaryLength" class="length-selector">
+                            <option value="short">Short</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="long">Long</option>
+                        </select>
+                        <button id="refreshBtn" class="refresh-btn" title="Refresh Summary">
+                            <span>🔄</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="summaryContent" class="summary-content">
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Analyzing page content...</p>
+                    </div>
+                </div>
+
+                <div class="summary-actions">
+                    <button id="copyBtn" class="action-btn copy-btn" disabled>
+                        <span>📋</span>
+                        Copy Summary
+                    </button>
+                    <button id="shareBtn" class="action-btn share-btn" disabled>
+                        <span>📤</span>
+                        Share
+                    </button>
+                </div>
+            </div>
+
+            <div class="page-info">
+                <div class="info-item">
+                    <span class="label">Page:</span>
+                    <span id="pageTitle" class="value">Loading...</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Content Type:</span>
+                    <span id="contentType" class="value">Analyzing...</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Word Count:</span>
+                    <span id="wordCount" class="value">-</span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <button id="settingsBtn" class="settings-btn">
+                <span>⚙️</span>
+                Settings
+            </button>
+            <div class="status">
+                <span id="statusText">Ready</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

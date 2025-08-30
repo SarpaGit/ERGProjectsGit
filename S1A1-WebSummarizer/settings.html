@@ -1,0 +1,56 @@
+<!-- settings.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Summarizer Settings</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .container {
+            padding: 20px;
+            min-width: 300px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        #status {
+            color: green;
+            margin-top: 10px;
+            display: none;
+            padding: 10px;
+            background-color: #e8f5e9;
+            border-radius: 4px;
+        }
+        .error {
+            color: red;
+            margin-top: 10px;
+            display: none;
+            padding: 10px;
+            background-color: #ffebee;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Smart Summarizer Settings</h2>
+        <div class="input-group">
+            <label for="apiKey">Gemini API Key:</label>
+            <input type="password" id="apiKey" placeholder="Enter your Gemini API key">
+        </div>
+        <button id="saveButton">Save Settings</button>
+        <div id="status">Settings saved successfully!</div>
+        <div id="error" class="error"></div>
+    </div>
+    <script src="settings.js" type="module"></script>
+</body>
+</html>

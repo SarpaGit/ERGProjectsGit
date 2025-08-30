@@ -1,0 +1,43 @@
+{
+  "name": "web-content-summarizer",
+  "version": "1.0.0",
+  "description": "A Chrome extension that automatically summarizes web page content",
+  "main": "manifest.json",
+  "scripts": {
+    "build": "echo 'Build process not implemented yet'",
+    "test": "echo 'Tests not implemented yet'",
+    "lint": "echo 'Linting not implemented yet'",
+    "package": "echo 'Packaging not implemented yet'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "summarizer",
+    "ai",
+    "content-analysis",
+    "text-processing",
+    "productivity"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/web-content-summarizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/web-content-summarizer/issues"
+  },
+  "homepage": "https://github.com/your-username/web-content-summarizer#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "manifest": {
+    "version": 3,
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting"
+    ]
+  }
+}
