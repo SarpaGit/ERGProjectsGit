@@ -1,3 +1,5 @@
 .DS_Store
 .mov
-
+.pem
+.env
+.log
