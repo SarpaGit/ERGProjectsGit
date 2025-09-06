@@ -3,3 +3,5 @@
 .pem
 .env
 .log
+Secrets/ERv4-S2.pem
+Secrets/ERG.pem
