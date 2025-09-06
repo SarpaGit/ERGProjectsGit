@@ -1,0 +1,440 @@
+2025-09-04 22:30:45,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:30:45,036 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:30:45,038 - INFO -  * Restarting with stat
+2025-09-04 22:30:45,265 - WARNING -  * Debugger is active!
+2025-09-04 22:30:45,270 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:31:00,139 - INFO - 127.0.0.1 - - [04/Sep/2025 22:31:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-09-04 22:31:00,168 - INFO - 127.0.0.1 - - [04/Sep/2025 22:31:00] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-09-04 22:31:00,168 - INFO - 127.0.0.1 - - [04/Sep/2025 22:31:00] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-09-04 22:31:00,261 - INFO - 127.0.0.1 - - [04/Sep/2025 22:31:00] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=r9hpLMGZPbFy7tOVjkJJ HTTP/1.1" 200 -
+2025-09-04 22:31:00,520 - INFO - 127.0.0.1 - - [04/Sep/2025 22:31:00] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-09-04 22:31:52,586 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:31:52,586 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:31:52,587 - INFO -  * Restarting with stat
+2025-09-04 22:31:52,779 - WARNING -  * Debugger is active!
+2025-09-04 22:31:52,784 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:32:13,150 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:32:13,150 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:32:13,151 - INFO -  * Restarting with stat
+2025-09-04 22:32:13,398 - WARNING -  * Debugger is active!
+2025-09-04 22:32:13,402 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:33:07,916 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:33:07,916 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:33:07,917 - INFO -  * Restarting with stat
+2025-09-04 22:33:08,115 - WARNING -  * Debugger is active!
+2025-09-04 22:33:08,120 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:33:26,327 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-09-04 22:33:26,341 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-09-04 22:33:26,341 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:26] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-09-04 22:33:26,349 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Rxv1mEHMvrxheq3Vaulf HTTP/1.1" 200 -
+2025-09-04 22:33:30,567 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-09-04 22:33:30,573 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-04 22:33:30,573 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-04 22:33:30,577 - INFO - 127.0.0.1 - - [04/Sep/2025 22:33:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Rxv1mEHMvrxheq3Vaulf HTTP/1.1[0m" 304 -
+2025-09-04 22:34:30,767 - INFO -  * Detected change in '/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py', reloading
+2025-09-04 22:34:30,805 - INFO -  * Restarting with stat
+2025-09-04 22:36:34,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:36:34,677 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:36:34,678 - INFO -  * Restarting with stat
+2025-09-04 22:36:35,022 - WARNING -  * Debugger is active!
+2025-09-04 22:36:35,029 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:36:47,126 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-09-04 22:36:47,141 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-04 22:36:47,141 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-04 22:36:47,147 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:47] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=tMmVBhzsQQSDppyIBul4 HTTP/1.1" 200 -
+2025-09-04 22:36:49,756 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-09-04 22:36:49,761 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-04 22:36:49,762 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-04 22:36:49,766 - INFO - 127.0.0.1 - - [04/Sep/2025 22:36:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=tMmVBhzsQQSDppyIBul4 HTTP/1.1[0m" 304 -
+2025-09-04 22:38:08,191 - INFO - 127.0.0.1 - - [04/Sep/2025 22:38:08] "GET / HTTP/1.1" 200 -
+2025-09-04 22:39:49,055 - INFO - Attempting to summarize file: statement.pdf
+2025-09-04 22:39:49,163 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-09-04 22:40:03,945 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyCGh988SSTuGgiWVFUe9YguC2F9xrsGFZU HTTP/1.1" 200 None
+2025-09-04 22:40:03,946 - INFO - Summary generated successfully.
+2025-09-04 22:40:03,949 - INFO - 127.0.0.1 - - [04/Sep/2025 22:40:03] "POST /summarize HTTP/1.1" 200 -
+2025-09-04 22:42:12,921 - INFO - Attempting to summarize YouTube video: https://www.youtube.com/watch?v=QI25c80h0WI&list=PLvxs_j5q540bqFCco62n6EaETZyX5nrQg&index=1
+2025-09-04 22:42:12,922 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-09-04 22:42:13,145 - ERROR - An error occurred during summarization: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 117, in summarize_content
+    transcript = yt.captions['a.en']
+                 ^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 287, in captions
+    return pytube.CaptionQuery(self.caption_tracks)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 275, in caption_tracks
+    self.vid_info.get("captions", {})
+    ^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-09-04 22:42:13,161 - INFO - 127.0.0.1 - - [04/Sep/2025 22:42:13] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-09-04 22:42:23,126 - INFO - Attempting to summarize content from URL: https://www.nytimes.com/2025/09/04/world/asia/china-hack-salt-typhoon.html
+2025-09-04 22:42:23,131 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-09-04 22:42:37,507 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyCGh988SSTuGgiWVFUe9YguC2F9xrsGFZU HTTP/1.1" 200 None
+2025-09-04 22:42:37,509 - INFO - Summary generated successfully.
+2025-09-04 22:42:37,513 - INFO - 127.0.0.1 - - [04/Sep/2025 22:42:37] "POST /summarize HTTP/1.1" 200 -
+2025-09-04 22:43:37,281 - INFO - Attempting to summarize YouTube video: https://www.youtube.com/watch?v=dA6IgCdg6tE
+2025-09-04 22:43:37,281 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-09-04 22:43:37,507 - ERROR - An error occurred during summarization: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 117, in summarize_content
+    transcript = yt.captions['a.en']
+                 ^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 287, in captions
+    return pytube.CaptionQuery(self.caption_tracks)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 275, in caption_tracks
+    self.vid_info.get("captions", {})
+    ^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-09-04 22:43:37,510 - INFO - 127.0.0.1 - - [04/Sep/2025 22:43:37] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-09-04 22:48:36,028 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:48:36,029 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:48:36,030 - INFO -  * Restarting with stat
+2025-09-04 22:48:36,223 - WARNING -  * Debugger is active!
+2025-09-04 22:48:36,228 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:48:41,772 - INFO - 127.0.0.1 - - [04/Sep/2025 22:48:41] "GET / HTTP/1.1" 200 -
+2025-09-04 22:48:41,904 - INFO - 127.0.0.1 - - [04/Sep/2025 22:48:41] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-09-04 22:48:42,050 - INFO - 127.0.0.1 - - [04/Sep/2025 22:48:42] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-09-04 22:49:04,784 - INFO - Attempting to summarize file: ai_studio_code.txt
+2025-09-04 22:49:04,835 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-09-04 22:49:14,228 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyCGh988SSTuGgiWVFUe9YguC2F9xrsGFZU HTTP/1.1" 200 None
+2025-09-04 22:49:14,230 - INFO - Summary generated successfully.
+2025-09-04 22:49:14,234 - INFO - 127.0.0.1 - - [04/Sep/2025 22:49:14] "POST /summarize HTTP/1.1" 200 -
+2025-09-04 22:49:47,426 - INFO - Attempting to summarize file: Barektain-2024.pdf
+2025-09-04 22:49:48,120 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-09-04 22:50:38,217 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyCGh988SSTuGgiWVFUe9YguC2F9xrsGFZU HTTP/1.1" 200 None
+2025-09-04 22:50:38,220 - INFO - Summary generated successfully.
+2025-09-04 22:50:38,225 - INFO - 127.0.0.1 - - [04/Sep/2025 22:50:38] "POST /summarize HTTP/1.1" 200 -
+2025-09-04 22:51:14,609 - INFO - Attempting to summarize YouTube video: https://www.youtube.com/watch?v=ixqf5Iz8Ekg
+2025-09-04 22:51:14,611 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-09-04 22:51:14,825 - ERROR - An error occurred during summarization: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 119, in summarize_content
+    if not yt.captions.get('a.en'):
+           ^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 287, in captions
+    return pytube.CaptionQuery(self.caption_tracks)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 275, in caption_tracks
+    self.vid_info.get("captions", {})
+    ^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-09-04 22:51:14,834 - INFO - 127.0.0.1 - - [04/Sep/2025 22:51:14] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-09-04 22:51:34,252 - INFO - Attempting to summarize YouTube video: https://youtu.be/ixqf5Iz8Ekg?si=0tPR7HCWHGDiXvcM
+2025-09-04 22:51:34,252 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-09-04 22:51:34,449 - ERROR - An error occurred during summarization: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 119, in summarize_content
+    if not yt.captions.get('a.en'):
+           ^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 287, in captions
+    return pytube.CaptionQuery(self.caption_tracks)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 275, in caption_tracks
+    self.vid_info.get("captions", {})
+    ^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-09-04 22:51:34,455 - INFO - 127.0.0.1 - - [04/Sep/2025 22:51:34] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-09-04 22:55:23,912 - INFO -  * Detected change in '/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py', reloading
+2025-09-04 22:55:23,948 - INFO -  * Restarting with stat
+2025-09-04 22:55:24,277 - WARNING -  * Debugger is active!
+2025-09-04 22:55:24,283 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:55:53,705 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:55:53,706 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:55:53,707 - INFO -  * Restarting with stat
+2025-09-04 22:55:53,897 - WARNING -  * Debugger is active!
+2025-09-04 22:55:53,902 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:56:00,427 - INFO - 127.0.0.1 - - [04/Sep/2025 22:56:00] "GET / HTTP/1.1" 200 -
+2025-09-04 22:56:16,052 - INFO - Attempting to summarize YouTube video: https://youtu.be/ixqf5Iz8Ekg?si=e4YV9PWQDOVz_xjB
+2025-09-04 22:56:16,053 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-09-04 22:56:16,286 - ERROR - An error occurred during summarization: name 'VideoUnavailable' is not defined
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 118, in summarize_content
+    if not yt.captions.get('a.en'):
+           ^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 287, in captions
+    return pytube.CaptionQuery(self.caption_tracks)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 275, in caption_tracks
+    self.vid_info.get("captions", {})
+    ^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 122, in summarize_content
+    except (VideoUnavailable, RegexMatchError, LiveStreamError, AgeRestrictedError) as e:
+            ^^^^^^^^^^^^^^^^
+NameError: name 'VideoUnavailable' is not defined
+2025-09-04 22:56:16,299 - INFO - 127.0.0.1 - - [04/Sep/2025 22:56:16] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-09-04 22:58:34,387 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 22:58:34,388 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 22:58:34,389 - INFO -  * Restarting with stat
+2025-09-04 22:58:34,582 - WARNING -  * Debugger is active!
+2025-09-04 22:58:34,587 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 22:58:38,712 - INFO - 127.0.0.1 - - [04/Sep/2025 22:58:38] "GET / HTTP/1.1" 200 -
+2025-09-04 22:58:47,687 - INFO - Attempting to summarize YouTube video: https://youtu.be/ixqf5Iz8Ekg?si=e4YV9PWQDOVz_xjB
+2025-09-04 22:58:47,688 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-09-04 22:58:47,875 - ERROR - An error occurred during summarization: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 119, in summarize_content
+    if not yt.captions.get('a.en'):
+           ^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 287, in captions
+    return pytube.CaptionQuery(self.caption_tracks)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 275, in caption_tracks
+    self.vid_info.get("captions", {})
+    ^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-09-04 22:58:47,885 - INFO - 127.0.0.1 - - [04/Sep/2025 22:58:47] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-09-04 23:04:42,946 - INFO - Attempting to summarize YouTube video: https://www.youtube.com/watch?v=LY9gYYuHYsU
+2025-09-04 23:04:42,947 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-09-04 23:04:43,116 - ERROR - An error occurred during summarization: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/S3/S3A1-Gemini/app.py", line 119, in summarize_content
+    if not yt.captions.get('a.en'):
+           ^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 287, in captions
+    return pytube.CaptionQuery(self.caption_tracks)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 275, in caption_tracks
+    self.vid_info.get("captions", {})
+    ^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sarpas/Library/Mobile Documents/com~apple~CloudDocs/SarpaPersonal/PersonalOnCloudSharedFolder/Education/SchoolofAI/ERAv4-SchoolofAI/CodeSessions/ERGProjectsGit/venv/lib/python3.11/site-packages/pytube/request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-09-04 23:04:43,119 - INFO - 127.0.0.1 - - [04/Sep/2025 23:04:43] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-09-04 23:07:50,402 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-04 23:07:50,403 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-04 23:07:50,404 - INFO -  * Restarting with stat
+2025-09-04 23:07:50,724 - WARNING -  * Debugger is active!
+2025-09-04 23:07:50,732 - INFO -  * Debugger PIN: 159-691-317
+2025-09-04 23:07:57,199 - INFO - 127.0.0.1 - - [04/Sep/2025 23:07:57] "GET / HTTP/1.1" 200 -
+2025-09-04 23:08:55,521 - INFO - 127.0.0.1 - - [04/Sep/2025 23:08:55] "GET / HTTP/1.1" 200 -
+2025-09-04 23:09:05,695 - INFO - Attempting to summarize file: ai_studio_code.txt
+2025-09-04 23:09:05,748 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-09-04 23:09:16,195 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyCGh988SSTuGgiWVFUe9YguC2F9xrsGFZU HTTP/1.1" 200 None
+2025-09-04 23:09:16,197 - INFO - Summary generated successfully.
+2025-09-04 23:09:16,201 - INFO - 127.0.0.1 - - [04/Sep/2025 23:09:16] "POST /summarize HTTP/1.1" 200 -
+2025-09-04 23:10:25,009 - INFO - Attempting to summarize content from URL: https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/
+2025-09-04 23:10:25,012 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-09-04 23:10:38,447 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyCGh988SSTuGgiWVFUe9YguC2F9xrsGFZU HTTP/1.1" 200 None
+2025-09-04 23:10:38,454 - INFO - Summary generated successfully.
+2025-09-04 23:10:38,460 - INFO - 127.0.0.1 - - [04/Sep/2025 23:10:38] "POST /summarize HTTP/1.1" 200 -
+2025-09-04 23:10:58,514 - INFO - Attempting to summarize content from URL: https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/
+2025-09-04 23:10:58,517 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-09-04 23:11:09,551 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=AIzaSyCGh988SSTuGgiWVFUe9YguC2F9xrsGFZU HTTP/1.1" 200 None
+2025-09-04 23:11:09,555 - INFO - Summary generated successfully.
+2025-09-04 23:11:09,559 - INFO - 127.0.0.1 - - [04/Sep/2025 23:11:09] "POST /summarize HTTP/1.1" 200 -

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Content Summarizer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        label { display: block; margin-top: 1rem; }
+        input[type="url"], input[type="file"] { width: 100%; }
+        #summary { white-space: pre-wrap; background: #f0f0f0; padding: 1rem; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Content Summarizer</h1>
+
+    <form id="summarizeForm" enctype="multipart/form-data">
+        <label>Enter URL (Web page or YouTube) OR Upload a PDF:</label>
+        <input type="url" id="urlInput" name="url" style="width: 100%;" placeholder="Enter URL..." />
+        <br>
+        <input type="file" id="pdfInput" name="file" accept="application/pdf" />
+        
+        <label>Summary Length:
+            <select id="summaryLength" name="summary_length">
+                <option value="short">Short (One sentence)</option>
+                <option value="medium" selected>Medium (One paragraph)</option>
+                <option value="long">Long (Comprehensive)</option>
+            </select>
+        </label>
+        <button type="submit">Summarize</button>
+    </form>
+
+    <h2>Summary</h2>
+    <div id="summary">Your summary will appear here.</div>
+
+    <script>
+        const summaryDiv = document.getElementById("summary");
+
+        document.getElementById("summarizeForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            
+            const urlInput = document.getElementById("urlInput");
+            const pdfInput = document.getElementById("pdfInput");
+            const summaryLength = document.getElementById("summaryLength").value;
+
+            const formData = new FormData();
+            formData.append("summary_length", summaryLength);
+
+            if (urlInput.value.trim()) {
+                formData.append("url", urlInput.value.trim());
+            } else if (pdfInput.files.length > 0) {
+                formData.append("file", pdfInput.files[0]);
+            } else {
+                alert("Please enter a URL or select a PDF file.");
+                return;
+            }
+
+            summaryDiv.textContent = "Summarizing...";
+
+            try {
+                const res = await fetch("/summarize", {
+                    method: "POST",
+                    body: formData,
+                });
+
+                if (!res.ok) {
+                    const err = await res.json();
+                    throw new Error(err.detail || "Error summarizing content.");
+                }
+
+                const data = await res.json();
+                summaryDiv.textContent = data.summary;
+            } catch (err) {
+                summaryDiv.textContent = "Error: " + err.message;
+            }
+        });
+    </script>
+</body>
+</html>

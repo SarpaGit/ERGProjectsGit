@@ -1,0 +1,935 @@
+2025-09-03 22:09:40,865 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='medium'
+2025-09-03 22:09:41,461 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:09:43,067 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 22:12:05,251 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 22:12:05,726 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:12:06,325 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 22:23:08,285 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 22:23:08,759 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:23:10,369 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 22:25:35,005 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 22:25:35,459 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:25:35,875 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 22:25:59,389 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 22:25:59,860 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:26:00,164 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 22:26:02,296 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 22:26:02,706 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 22:26:02,731 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:26:03,001 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 22:26:03,148 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:26:04,137 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 22:26:06,187 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='long'
+2025-09-03 22:26:06,638 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 22:26:06,906 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:11:58,302 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='medium'
+2025-09-03 23:12:14,146 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='tldr'
+2025-09-03 23:12:14,403 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:14,857 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='tldr'
+2025-09-03 23:12:14,959 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:15,060 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='tldr'
+2025-09-03 23:12:15,257 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='tldr'
+2025-09-03 23:12:15,319 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:15,418 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:15,454 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='tldr'
+2025-09-03 23:12:15,660 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:16,241 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:12:16,242 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:12:16,246 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='tldr'
+2025-09-03 23:12:16,360 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:16,378 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:12:16,459 - INFO - Received request: source='https://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?pfrom=home-ndtv_topscroll' summary_type='tldr'
+2025-09-03 23:12:16,630 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:16,707 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:12:16,807 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:12:17,057 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:12:17,410 - INFO - Extracted content: 
+Access Denied
+
+Access Denied
+ 
+You don't have permission to access "http://www.ndtv.com/india-news/centres-big-reform-gst-slabs-to-be-cut-to-2-only-5-and-18-to-remain-9211709?" on this server.
+Refere...
+2025-09-03 23:12:17,746 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:12:18,041 - ERROR - Failed to generate summary: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-09-03 23:42:27,033 - INFO - Received request: source='https://canvas.instructure.com/courses/12597696/pages/session-3-pytorch-fundamentals-and-simple-neural-networks?module_item_id=137777553' summary_type='tldr'
+2025-09-03 23:42:29,141 - INFO - Extracted content: 
+
+
+
+
+
+
+
+
+
+Log in to Canvas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 23:42:32,827 - INFO - Generated summary: The instruction is to log in to the Canvas learning management system.
+
+2025-09-03 23:42:37,844 - INFO - Received request: source='https://canvas.instructure.com/courses/12597696/pages/session-3-pytorch-fundamentals-and-simple-neural-networks?module_item_id=137777553' summary_type='long'
+2025-09-03 23:42:39,379 - INFO - Extracted content: 
+
+
+
+
+
+
+
+
+
+Log in to Canvas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 23:42:44,266 - INFO - Generated summary: The prompt only contains the instruction "Log in to Canvas".  Therefore, there's no content to summarize.  The instruction refers to the action of logging into a Canvas learning management system.  A detailed summary would necessarily focus on the *process* of logging in, which would vary depending on the specific Canvas instance. However, we can speculate on some key aspects:
+
+A detailed summary of the *implied* process of logging in to Canvas would include:
+
+* **Accessing the Canvas Login Page:** This usually involves navigating to a specific website URL (e.g., canvas.instructure.com, or a customized URL provided by an institution).  The process might involve searching for the institution's Canvas site using a search engine.
+
+* **Entering Credentials:** The login page will require the user to enter their assigned credentials:
+    * **Username:**  This is typically a user-assigned username or an email address associated with the Canvas account.  The specific format varies across institutions.
+    * **Password:**  A password is required to verify the user's identity.  Canvas usually enforces password complexity rules (e.g., minimum length, character types).  Password managers might be used to facilitate secure login.
+
+* **Authentication:** Once credentials are entered, Canvas authenticates the user by comparing the provided information to its database. This might involve multi-factor authentication (MFA) for added security, requiring a secondary verification method such as a code sent via email, SMS, or an authenticator app.
+
+* **Successful Login:**  Upon successful authentication, the user is granted access to their Canvas dashboard. This dashboard serves as a central hub providing access to courses, announcements, grades, and other functionalities.
+
+* **Troubleshooting Login Issues:**  The process might also involve troubleshooting common login problems, such as:
+    * **Forgotten Password:**  The system should provide a mechanism for resetting a forgotten password, typically involving an email link or security questions.
+    * **Incorrect Credentials:**  The user might need to double-check their username and password for typos or inaccuracies.
+    * **Technical Issues:**  Network connectivity issues or problems with the Canvas server can also prevent login.  The user may need to contact their institution's IT support.
+
+
+In conclusion, while the prompt only provides the instruction "Log in to Canvas," a comprehensive understanding involves the steps of accessing the website, providing credentials, authenticating the user, and handling potential login problems.  The specifics would depend on the particular Canvas instance and its security settings.
+
+2025-09-03 23:43:10,125 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='long'
+2025-09-03 23:43:10,600 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 23:43:19,703 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 23:43:20,136 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 23:43:21,162 - INFO - Generated summary: Kaggle offers resources on foundational large language models and text generation.
+
+2025-09-03 23:43:24,864 - INFO - Generated summary: The Kaggle learning path "Foundational Large Language Models & Text Generation" provides a comprehensive introduction to the world of large language models (LLMs) and their application in text generation.  The course doesn't delve into highly technical implementation details but instead focuses on conceptual understanding and practical application, making it accessible to a broader audience, including those with limited prior experience in machine learning.  Let's break down the key learning objectives and content areas:
+
+**1. Understanding Large Language Models (LLMs):** The course begins by establishing a foundational understanding of what LLMs are. It explains their underlying architecture, typically based on transformer networks, and highlights their key capabilities:  generating text, translating languages, writing different kinds of creative content, and answering questions in an informative way.  Crucially, the course emphasizes the probabilistic nature of LLM outputs, emphasizing that they don't "understand" meaning in the human sense but rather predict the most likely sequence of words based on their training data.  This sets the stage for a realistic expectation of their capabilities and limitations.
+
+**2. The Transformer Architecture:** While not diving deep into the mathematical intricacies, the course likely provides a high-level overview of the transformer architecture, focusing on its key components such as self-attention mechanisms.  These mechanisms allow the model to weigh the importance of different words in a sequence, enabling it to capture long-range dependencies and context within the text.  This explanation aims to build an intuitive understanding of how LLMs process and generate text without requiring advanced mathematical knowledge.
+
+**3. Training Data and Bias:** A significant portion of the course likely addresses the crucial role of training data in shaping the behavior and output of LLMs.  It explains how massive datasets of text and code are used to train these models and how the biases present in this data can be reflected in the model's outputs.  This section underscores the ethical considerations surrounding LLMs and the importance of awareness regarding potential biases in generated text.  Understanding this aspect is critical for responsible use and interpretation of LLM outputs.
+
+**4. Text Generation Techniques:**  The core of the course revolves around practical text generation techniques using LLMs.  It likely explores various methods for prompting and controlling the generation process, such as:
+
+* **Prompt Engineering:**  This involves crafting effective input prompts to guide the LLM towards desired outputs.  The course would likely provide examples of different prompting strategies and their impact on the generated text.
+* **Parameter Tuning (Fine-tuning):**  While likely not focusing on the technical aspects of fine-tuning, the course probably introduces the concept of adapting pre-trained LLMs to specific tasks or domains by training them on a smaller, targeted dataset.  This allows for more customized and controlled text generation.
+* **Temperature and Top-k Sampling:** These are parameters that control the randomness and creativity of the generated text.  The course would likely explain how adjusting these parameters can influence the diversity and coherence of the output.
+
+**5. Applications of LLMs in Text Generation:** The course would likely demonstrate the versatility of LLMs through examples of their application in various text generation tasks, such as:
+
+* **Storytelling and Creative Writing:** Generating fictional narratives, poems, or scripts.
+* **Summarization:** Condensing lengthy texts into concise summaries.
+* **Translation:** Converting text from one language to another.
+* **Question Answering:** Providing informative responses to questions based on provided context.
+* **Code Generation:** Generating code snippets in various programming languages.
+
+**6. Limitations and Ethical Considerations:**  A responsible introduction to LLMs necessitates a discussion of their limitations.  The course likely addresses issues such as:
+
+* **Hallucinations:** The generation of factually incorrect or nonsensical information.
+* **Bias and Fairness:**  The potential for perpetuating and amplifying existing biases in the training data.
+* **Environmental Impact:**  The significant computational resources required for training and running LLMs.
+
+
+In summary, the Kaggle learning path on Foundational Large Language Models & Text Generation aims to provide a practical and accessible introduction to this rapidly evolving field.  It focuses on building an intuitive understanding of LLMs, their capabilities, limitations, and ethical implications, while also providing hands-on experience with text generation techniques and applications.  The course emphasizes responsible use and critical evaluation of LLM outputs, equipping learners with the knowledge and skills necessary to navigate this powerful technology effectively.
+
+2025-09-03 23:44:52,252 - INFO - Received request: source='https://www.youtube.com/watch?v=ixqf5Iz8Ekg' summary_type='tldr'
+2025-09-03 23:44:52,253 - ERROR - Could not retrieve transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-09-03 23:44:55,070 - INFO - Received request: source='https://www.youtube.com/watch?v=ixqf5Iz8Ekg' summary_type='medium'
+2025-09-03 23:44:55,070 - ERROR - Could not retrieve transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-09-03 23:44:56,428 - INFO - Received request: source='https://www.youtube.com/watch?v=ixqf5Iz8Ekg' summary_type='medium'
+2025-09-03 23:44:56,428 - ERROR - Could not retrieve transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-09-03 23:44:56,905 - INFO - Received request: source='https://www.youtube.com/watch?v=ixqf5Iz8Ekg' summary_type='medium'
+2025-09-03 23:44:56,905 - ERROR - Could not retrieve transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-09-03 23:45:04,498 - INFO - Received request: source='https://www.youtube.com/watch?v=ixqf5Iz8Ekg' summary_type='long'
+2025-09-03 23:45:04,498 - ERROR - Could not retrieve transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-09-03 23:45:33,845 - INFO - Received request: source='https://www.youtube.com/watch?v=dQw4w9WgXcQ' summary_type='tldr'
+2025-09-03 23:45:33,845 - ERROR - Could not retrieve transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-09-03 23:45:48,254 - INFO - Received request: source='https://www.africau.edu/images/default/sample.pdf' summary_type='tldr'
+2025-09-03 23:45:49,687 - INFO - Received request: source='https://www.africau.edu/images/default/sample.pdf' summary_type='tldr'
+2025-09-03 23:45:51,502 - WARNING - invalid pdf header: b'\n<!DO'
+2025-09-03 23:45:51,508 - WARNING - EOF marker not found
+2025-09-03 23:45:51,508 - ERROR - Could not retrieve PDF content: Stream has ended unexpectedly
+2025-09-03 23:45:52,288 - WARNING - invalid pdf header: b'\n<!DO'
+2025-09-03 23:45:52,291 - WARNING - EOF marker not found
+2025-09-03 23:45:52,291 - ERROR - Could not retrieve PDF content: Stream has ended unexpectedly
+2025-09-03 23:49:25,804 - INFO - Received request: source='https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation' summary_type='tldr'
+2025-09-03 23:49:26,256 - INFO - Extracted content: 
+
+
+
+Foundational Large Language Models & Text Generation | Kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+2025-09-03 23:49:28,610 - INFO - Generated summary: Kaggle offers resources on foundational large language models and text generation.
+
+2025-09-03 23:49:39,704 - INFO - Received request: source='https://www.youtube.com/watch?v=ixqf5Iz8Ekg' summary_type='tldr'
+2025-09-03 23:49:39,704 - ERROR - Could not retrieve transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2025-09-03 23:50:11,827 - INFO - Received request: source='https://drive.google.com/file/d/1rYu-mIcsTrAeCuH-xHPofrI1i1qNVzqO/view' summary_type='tldr'
+2025-09-03 23:50:12,556 - INFO - Extracted content: whitepaper_Foundational Large Language models & text generation_v2.pdf - Google DriveLoading…Sign in...
+2025-09-03 23:50:14,037 - INFO - Generated summary: The link leads to a Google Drive file containing a whitepaper on foundational large language models and text generation.
+
+2025-09-03 23:50:22,163 - INFO - Received request: source='https://drive.google.com/file/d/1rYu-mIcsTrAeCuH-xHPofrI1i1qNVzqO/view' summary_type='long'
+2025-09-03 23:50:22,858 - INFO - Extracted content: whitepaper_Foundational Large Language models & text generation_v2.pdf - Google DriveLoading…Sign in...
+2025-09-03 23:50:23,994 - INFO - Generated summary: Please provide the content of the whitepaper.  I need the text of the PDF to summarize it for you. I cannot access local files or files from Google Drive.  Once you provide the text, I will be happy to give you a detailed, long-form summary covering all the key points.
+
+2025-09-03 23:50:36,641 - INFO - Received request: source='https://drive.google.com/file/d/1rYu-mIcsTrAeCuH-xHPofrI1i1qNVzqO/view' summary_type='long'
+2025-09-03 23:50:37,254 - INFO - Extracted content: whitepaper_Foundational Large Language models & text generation_v2.pdf - Google DriveLoading…Sign in...
+2025-09-03 23:50:38,242 - INFO - Generated summary: Please provide me with the content of the whitepaper. I need the text from "whitepaper_Foundational Large Language models & text generation_v2.pdf" to summarize it for you.  I cannot access local files or specific URLs.  Once you provide the text, I will give you a detailed and comprehensive summary covering all key points.
+
+2025-09-03 23:50:51,455 - INFO - Received request: source='https://drive.google.com/file/d/1rYu-mIcsTrAeCuH-xHPofrI1i1qNVzqO/view' summary_type='medium'
+2025-09-03 23:50:52,073 - INFO - Extracted content: whitepaper_Foundational Large Language models & text generation_v2.pdf - Google DriveLoading…Sign in...
+2025-09-03 23:50:53,014 - INFO - Generated summary: Please provide the content of the whitepaper. I need the text from the PDF to summarize it for you.  I cannot access local files or specific URLs, including Google Drive links.  Once you provide the text, I will be happy to create a 2-3 paragraph summary.
+
+2025-09-03 23:52:28,296 - INFO - Received request: source='https://dl.acm.org/doi/pdf/10.1145/3597503.3639187' summary_type='medium'
+2025-09-03 23:52:28,530 - INFO - Extracted content: Just a moment...Enable JavaScript and cookies to continue...
+2025-09-03 23:52:39,895 - INFO - Generated summary: The message "Just a moment...Enable JavaScript and cookies to continue" indicates that the website or application the user is attempting to access requires JavaScript and cookies to function correctly.  These technologies are commonly used to enhance website functionality, personalize user experience, and track user activity. Without them enabled, the site likely cannot load properly or provide access to its features.  The user is being asked to temporarily adjust their browser settings to permit the use of these technologies before proceeding.
+
+Essentially, the website is communicating that it needs these features to operate.  JavaScript allows for dynamic content, interactive elements, and smoother browsing experiences. Cookies store small pieces of data about the user and their session, enabling features such as remembering login details or tracking shopping cart contents.  Disabling these can limit or prevent access to various parts of the website's functionalities, prompting the message as a necessary step for further interaction.
+
+In short, the user needs to enable JavaScript and cookies in their browser settings to bypass the message and continue using the website or application.  This is a standard practice for many modern web applications and is crucial for delivering a complete and functional user experience.
+
+2025-09-03 23:58:36,631 - INFO - Received request: source='https://www.youtube.com/watch?v=Y8Tko2sJ5ds' summary_type='tldr'
+2025-09-03 23:58:36,631 - ERROR - Could not retrieve transcript: module 'youtube_transcript_api' has no attribute 'get_transcript'
+2025-09-03 23:59:48,404 - INFO - Received request: source='https://www.youtube.com/watch?v=Y8Tko2sJ5ds' summary_type='tldr'
+2025-09-03 23:59:48,405 - ERROR - Could not retrieve transcript: module 'youtube_transcript_api' has no attribute 'get_transcript'
+2025-09-04 00:02:19,930 - INFO - Received request: source='https://www.youtube.com/watch?v=Y8Tko2sJ5ds' summary_type='tldr'
+2025-09-04 00:02:19,931 - ERROR - Could not retrieve transcript: module 'youtube_transcript_api' has no attribute 'get_transcript'
+2025-09-04 00:03:27,490 - INFO - Received request: source='https://www.youtube.com/watch?v=Y8Tko2sJ5ds' summary_type='tldr'
+2025-09-04 00:03:27,490 - ERROR - Could not retrieve transcript: module 'youtube_transcript_api' has no attribute 'get_transcript'
+2025-09-04 00:04:09,699 - INFO - Received request: source='https://www.youtube.com/watch?v=Y8Tko2sJ5ds' summary_type='tldr'
+2025-09-04 00:04:09,699 - ERROR - Could not retrieve transcript: module 'youtube_transcript_api' has no attribute 'get_transcript'
+2025-09-04 00:10:59,593 - INFO - Received request: source='https://drive.google.com/file/d/1rYu-mIcsTrAeCuH-xHPofrI1i1qNVzqO/view' summary_type='tldr'
+2025-09-04 00:11:00,741 - INFO - Extracted content: whitepaper_Foundational Large Language models & text generation_v2.pdf - Google DriveLoading…Sign in...
+2025-09-04 00:11:10,799 - INFO - Generated summary: The link points to a Google Drive document about foundational large language models and text generation.
+
+2025-09-04 00:11:17,636 - INFO - Received request: source='https://drive.google.com/file/d/1rYu-mIcsTrAeCuH-xHPofrI1i1qNVzqO/view' summary_type='medium'
+2025-09-04 00:11:18,757 - INFO - Extracted content: whitepaper_Foundational Large Language models & text generation_v2.pdf - Google DriveLoading…Sign in...
+2025-09-04 00:11:19,915 - INFO - Generated summary: Please provide me with the text from the whitepaper. I need the content of the "whitepaper_Foundational Large Language models & text generation_v2.pdf" to summarize it for you.  I cannot access local files or specific files online, including Google Drive documents.  Once you provide the text, I will be happy to create a summary.
+
+2025-09-04 00:16:39,308 - INFO - Received request: source='https://dl.acm.org/doi/pdf/10.1145/3597503.3639187' summary_type='tldr'
+2025-09-04 00:16:39,528 - INFO - Extracted content: Just a moment...Enable JavaScript and cookies to continue...
+2025-09-04 00:16:44,174 - INFO - Generated summary: The website requires JavaScript and cookies to function.
+

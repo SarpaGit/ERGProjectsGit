@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Summarizer</title>
+    <!-- Use Tailwind CSS for a modern, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            max-width: 900px;
+        }
+        .summary-box {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="container bg-white p-8 rounded-2xl shadow-xl w-full">
+        <h1 class="text-4xl font-extrabold text-gray-900 text-center mb-6">AI Content Summarizer</h1>
+        <p class="text-center text-gray-600 mb-8">Effortlessly summarize content from web pages and local files using the Gemini Flash model.</p>
+        
+        <form id="summarizeForm" class="space-y-6">
+            <!-- Input Type Selection -->
+            <div class="flex items-center justify-center space-x-4 mb-6">
+                <label class="flex items-center space-x-2 cursor-pointer">
+                    <input type="radio" name="data_type" value="url" checked class="form-radio text-blue-600">
+                    <span class="text-gray-700 font-medium">Web Page URL</span>
+                </label><!--
+                <label class="flex items-center space-x-2 cursor-pointer">
+                    <input type="radio" name="data_type" value="youtube" class="form-radio text-blue-600">
+                    <span class="text-gray-700 font-medium">YouTube URL</span>
+                </label>-->
+                <label class="flex items-center space-x-2 cursor-pointer">
+                    <input type="radio" name="data_type" value="file" class="form-radio text-blue-600">
+                    <span class="text-gray-700 font-medium">Text/PDF File</span>
+                </label>
+            </div>
+
+            <!-- Input Fields (dynamically change with radio buttons) -->
+            <div id="url-input" class="input-group">
+                <input type="url" name="url" placeholder="Enter a web page URL (e.g., https://example.com)" class="w-full px-4 py-2 border rounded-md focus:ring-blue-500 focus:border-blue-500 transition-all duration-200" required>
+            </div>
+            <div id="youtube-input" class="input-group hidden">
+                <input type="url" name="video_url" placeholder="Enter a YouTube video URL (e.g., https://youtu.be/dQw4w9WgXcQ)" class="w-full px-4 py-2 border rounded-md focus:ring-blue-500 focus:border-blue-500 transition-all duration-200" required>
+            </div>
+            <div id="file-input" class="input-group hidden">
+                <input type="file" name="file" accept=".txt,.pdf" class="w-full px-4 py-2 border rounded-md focus:ring-blue-500 focus:border-blue-500 transition-all duration-200" required>
+            </div>
+
+            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-md">Summarize Content</button>
+        </form>
+
+        <div id="loadingIndicator" class="text-center mt-6 hidden">
+            <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500 inline-block"></div>
+            <p class="text-gray-500 mt-2">Summarizing...</p>
+        </div>
+
+        <!-- Result and Log Display -->
+        <div id="results" class="mt-8 hidden">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Summary</h2>
+            <div id="summaryOutput" class="summary-box bg-gray-50 p-6 rounded-xl border border-gray-200"></div>
+            <div class="flex space-x-4 mt-4">
+                <button id="saveSummaryBtn" class="bg-green-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-600 transition-colors duration-200 shadow-sm">Save Summary</button>
+                <button id="clearBtn" class="bg-gray-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-500 transition-colors duration-200 shadow-sm">Clear</button>
+            </div>
+        </div>
+
+        <div id="log" class="mt-8 p-4 bg-red-50 text-red-700 rounded-lg hidden">
+            <h2 class="text-lg font-semibold mb-2">Logs & Errors</h2>
+            <pre id="logOutput" class="text-sm"></pre>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('summarizeForm');
+            const summaryOutput = document.getElementById('summaryOutput');
+            const logOutput = document.getElementById('logOutput');
+            const resultsDiv = document.getElementById('results');
+            const logDiv = document.getElementById('log');
+            const loadingIndicator = document.getElementById('loadingIndicator');
+            const saveSummaryBtn = document.getElementById('saveSummaryBtn');
+            const clearBtn = document.getElementById('clearBtn');
+
+            const inputGroups = {
+                'url': document.getElementById('url-input'),
+                'youtube': document.getElementById('youtube-input'),
+                'file': document.getElementById('file-input')
+            };
+            
+            // Function to switch input fields based on radio button selection
+            document.querySelectorAll('input[name="data_type"]').forEach(radio => {
+                radio.addEventListener('change', () => {
+                    for (const key in inputGroups) {
+                        inputGroups[key].classList.add('hidden');
+                        inputGroups[key].querySelector('input').removeAttribute('required');
+                    }
+                    const selectedInput = inputGroups[radio.value];
+                    selectedInput.classList.remove('hidden');
+                    selectedInput.querySelector('input').setAttribute('required', 'required');
+                });
+            });
+
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+
+                // Reset UI
+                resultsDiv.classList.add('hidden');
+                logDiv.classList.add('hidden');
+                logOutput.textContent = '';
+                summaryOutput.textContent = '';
+                loadingIndicator.classList.remove('hidden');
+
+                const formData = new FormData(form);
+                const dataType = formData.get('data_type');
+                
+                try {
+                    const response = await fetch('/summarize', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const data = await response.json();
+                    
+                    if (data.logs && data.logs.length > 0) {
+                        logDiv.classList.remove('hidden');
+                        logOutput.textContent = data.logs.join('\n');
+                    }
+
+                    if (response.ok) {
+                        summaryOutput.textContent = data.summary;
+                        resultsDiv.classList.remove('hidden');
+                    } else {
+                        throw new Error(data.error || 'Unknown error occurred.');
+                    }
+                } catch (error) {
+                    logDiv.classList.remove('hidden');
+                    const errorMessage = `Failed to get summary: ${error.message}`;
+                    logOutput.textContent += `\n${errorMessage}`;
+                } finally {
+                    loadingIndicator.classList.add('hidden');
+                }
+            });
+
+            // Save summary as a text file
+            saveSummaryBtn.addEventListener('click', () => {
+                const summaryText = summaryOutput.textContent;
+                const blob = new Blob([summaryText], { type: 'text/plain' });
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = 'summary.txt';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            });
+
+            // Clear the summary and logs
+            clearBtn.addEventListener('click', () => {
+                summaryOutput.textContent = '';
+                logOutput.textContent = '';
+                resultsDiv.classList.add('hidden');
+                logDiv.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

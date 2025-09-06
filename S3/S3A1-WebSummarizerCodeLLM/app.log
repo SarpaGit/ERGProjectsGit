@@ -1,0 +1,8 @@
+2025-09-03 23:18:24,900 - uvicorn.error - INFO - Started server process [1521]
+2025-09-03 23:18:24,900 - uvicorn.error - INFO - Waiting for application startup.
+2025-09-03 23:18:24,900 - uvicorn.error - INFO - Application startup complete.
+2025-09-03 23:18:24,900 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-09-03 23:59:38,408 - uvicorn.error - INFO - Shutting down
+2025-09-03 23:59:38,511 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-09-03 23:59:38,512 - uvicorn.error - INFO - Application shutdown complete.
+2025-09-03 23:59:38,512 - uvicorn.error - INFO - Finished server process [1521]

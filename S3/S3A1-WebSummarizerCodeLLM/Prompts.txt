@@ -1,0 +1,9 @@
+Create a comprehensive content summarization application using Python, FastAPI, HTML/JS and  Gemini  for summarization.
+
+The project should take PDF, Web page or Youtube as link and then based on the following options, summarize teh content.
+Tl;dr - one sentence summary
+medium - One paragraph summary
+Long - a comprhensive summary
+
+The project will be hosted on EC2.
+
